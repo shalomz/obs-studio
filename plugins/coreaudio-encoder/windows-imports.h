@@ -74,7 +74,6 @@ enum {
 	kAudioCodecPropertyNameCFString                        = 'lnam',
 	kAudioCodecPropertyManufacturerCFString                = 'lmak',
 	kAudioCodecPropertyFormatCFString                      = 'lfor',
-	//kAudioCodecPropertyHasVariablePacketByteSizes          = 'vpk?',
 	kAudioCodecPropertySupportedInputFormats               = 'ifm#',
 	kAudioCodecPropertySupportedOutputFormats              = 'ofm#',
 	kAudioCodecPropertyAvailableInputSampleRates           = 'aisr',
@@ -202,7 +201,7 @@ enum {
 };
 
 enum {
-	// AudioStreamBasicDescription structure properties
+	// AudioStreamBasicDescription Structure Properties
 	kAudioFormatProperty_FormatInfo                       = 'fmti',
 	kAudioFormatProperty_FormatName                       = 'fnam',
 	kAudioFormatProperty_EncodeFormatIDs                  = 'acof',
@@ -220,7 +219,7 @@ enum {
 	kAudioFormatProperty_AvailableEncodeChannelLayoutTags = 'aecl',
 	kAudioFormatProperty_AvailableEncodeNumberChannels    = 'avnc',
 	kAudioFormatProperty_ASBDFromMPEGPacket               = 'admp',
-	//
+	
 	// AudioChannelLayout structure properties
 	kAudioFormatProperty_BitmapForLayoutTag               = 'bmtg',
 	kAudioFormatProperty_MatrixMixMap                     = 'mmap',
@@ -237,7 +236,7 @@ enum {
 	kAudioFormatProperty_TagsForNumberOfChannels          = 'tagc',
 	kAudioFormatProperty_PanningMatrix                    = 'panm',
 	kAudioFormatProperty_BalanceFade                      = 'balf',
-	//
+	
 	// ID3 tag (MP3 metadata) properties
 	kAudioFormatProperty_ID3TagSize                       = 'id3s',
 	kAudioFormatProperty_ID3TagToDictionary               = 'id3d'
@@ -287,6 +286,7 @@ enum {
 	kAudioConverterQuality_Min     = 0
 };
 
+//Enum, of course
 enum {
 	kAudio_UnimplementedError     = -4,
 	kAudio_FileNotFoundError      = -43,
